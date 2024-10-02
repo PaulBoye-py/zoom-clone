@@ -1,19 +1,31 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
+    darkMode: ["class"],
+    content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+  	extend: {
+  		colors: {
+			dark: {
+				1: '#1C1F2E',
+				2: '#161925',
+			},
+			blue: {
+				1: '#0E78F9'
+			},
+			sky: {
+				1: '#c9ddff',
+			}
+  		},
+		backgroundImage: {
+			hero: "url('/images/hero-background.png')"
+		}
+  	}
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;
