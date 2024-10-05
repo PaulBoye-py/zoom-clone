@@ -1,6 +1,17 @@
 import React, { ReactNode } from 'react'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Yoom - Fueling Conversations",
+  description: "Yoom - Fueling Conversations",
+  // favicon
+  icons: {
+    icon: '/icons/logo.svg'
+  }
+};
+
 
 const HomeLayout = ({ children }: { children: ReactNode}) => {
   return (
