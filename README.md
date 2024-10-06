@@ -2,6 +2,11 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). It is a Zoom app clone, offering video conferencing with essential functionalities like scheduling meetings, starting instant meetings, inviting participants to join, and viewing previously recorded meetings.
 
+## 🚀 **Live Demo**
+
+Check out the live version of the app here:  
+**[Zoom Clone - Live on Vercel](https://zoom-clone-ten-psi.vercel.app)**
+
 ## Features
 
 - **Schedule Meetings:** Plan and schedule video meetings in advance.
