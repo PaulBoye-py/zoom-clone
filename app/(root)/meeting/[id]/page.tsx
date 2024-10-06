@@ -1,3 +1,4 @@
+// ts-ignore
 "use client"
 import { useUser } from '@clerk/nextjs'
 import { StreamCall, StreamTheme } from '@stream-io/video-react-sdk'

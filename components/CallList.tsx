@@ -64,7 +64,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings'}) => {
           console.log('recordings', recordings);
     
           setRecordings(recordings);
-        } catch (error: any) {
+        } catch (error: unknown) {
           console.error('error fetching recordings', error);
           toast({
             title: 'Failed to fetch recordings',
